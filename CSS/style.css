@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    max-width: 1170px;
+    overflow: auto;
+    padding: 0 20px;
+}
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: #250101;
+    text-decoration: none;
+}
+
+#navbar{
+    color: rgb(8, 8, 8);
+    background: #b6b6b6;
+    overflow: auto;
+    margin: 50px, 2px, 60px, 5px;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 60px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+    padding-top: 2px;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-form{
+    padding-top: 40px;
+    float: left;
+    padding-left: 50px;
+    color: #6b0b0b;
+    font-style: 10px solid;
+}
+
+.btn2{
+    cursor: pointer;
+}
+
+#search{
+    border-radius: 10px;
+    color: #6b0b0b;
+}
+#navbar ul li a:hover,
+#navbar ul li a .current {
+  background: #444;
+  color: #6e4419;
+}
+.lP-img{
+    float: left;
+    width: 10%;
+    height: auto;
+    max-height: 100%;
+    border: 2px solid red;
+    padding: 2px, 0px 2px 30px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#showcase{
+    background: url(../PASFIN/pexels-lisa-fotios-1957477.jpg) no-repeat center center/cover;
+    height: 400px;
+}
+
+#showcase .showcase-content{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #6b0b0b;
+}
+
+.text-primary{
+    color: rgb(243, 20, 20);
+    font-family: cursive;
+    font-style: italic;
+}
+
+#home-info .btn{
+    display: inline-block;
+    max-width: 228px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #6b0b0b;
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: ease-in all 0.5s;
+}
+
+#home-info .btn:hover{
+    background: #fff;
+    color: #6b0b0b;
+}
+
+/* Showcase */
+#showcase .showcase-content p {
+    color: #000;
+}
+
+/* About */
+.info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+.info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+#about-info .info-left{
+    float: left;
+    padding: 10% 30px;
+    width: 50%;
+    min-height: 50%; 
+}
+
+#about-info .info-left p{
+    font-size: 20px;
+}
+
+.py3{
+    padding: 10px 0;
+}
+
+#founders{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url(../PASFIN/pexels-fauxels-3184465.jpg) no-repeat;
+}
+
+#founders .fhead{
+    text-align: center;
+    color: #6b0b0b;
+    font-size: 30px;
+    display: block;
+    margin-top: 30px;
+}
+
+#founders .fhead h1{
+    border-bottom: 1px solid red;
+    text-align: center;
+}
+.container2{
+    padding-top: 10px
+}
+#founders .founder-img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#founders .founder-img img{
+    float: left;
+    width: 30%;
+    min-height: 50%;
+    padding: 20px;
+}
+
+.fhead2 img{
+    float: right;
+    width: 30%;
+    min-height: 100%;
+    padding: 10px 10px 10px 20px;
+}
+.fhead2{
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+#founders .profile p{
+    font-size: 20px;
+    display: contents;
+}
+
+#founders .profile-2 p{
+    font-size: 20px;
+    display: contents;
+}
+
+
+#founders .profile h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #250101;
+    text-align: left;
+}
+
+#founders .profile-2 h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #250101;
+    text-align: right;
+}
